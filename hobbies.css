@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main_div{
+    height: 717px;
+    width: 1536px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(open\ book.jpg);  
+    background-size:1536px 717px;   
+}
+
+#main1{
+    height: 600px;
+    width: 1000px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#left{
+    height: 450px;
+    width: 470px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+
+}
+#left1{
+    height: 200px;
+    width: 300px;
+    /* background-color: gold; */
+}
+#right{
+    height: 540px;
+    width: 480px;
+    background-color: olive;
+    background-image: linear-gradient( #fdeb82 ,#f78fad);
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    border: 1px solid greenyellow;
+    border-radius: 15px;
+    box-shadow: 5px 5px black;
+}
+
+#right1{
+    height: 100px;
+    width: 500px;
+    /* background-color: aqua;   */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#details{
+    height: 220px;
+    width: 470px;
+    background-color: tan;
+    background-image: linear-gradient( #deb0df ,#a168fe);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
+
+}
+#education{
+    text-decoration: underline;
+}
+
+h1{
+    font-family:cursive;
+}
+h2{
+    font-family:cursive;
+}

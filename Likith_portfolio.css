@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main_div{
+    height: 717px;
+    width: 1536px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(question\ mark.jpg);
+
+}
+
+#who{
+    height: 175px;
+    width: 155px;
+    /* background-color: green; */
+}
+#circle{
+    height: 200px;
+    width:200px;
+    background-color: pink;
+    border-radius :150px; 
+    box-shadow: 2px 10px 25px white;
+}
+#unknown{
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+}
+/* 
+#who1{
+    text-decoration:solid;
+} */
+pre{
+    font-size: 21px;
+    color: red;
+}
